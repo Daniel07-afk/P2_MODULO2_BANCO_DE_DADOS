@@ -33,4 +33,6 @@ CREATE TABLE IF NOT EXISTS alunos (
 #EXERCÍCIO 7:
 #cursor.execute('DELETE FROM alunos WHERE id = "2" ')
 
+
 conn.commit()
+con.close()
